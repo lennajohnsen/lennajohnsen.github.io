@@ -33,6 +33,11 @@
     	font-size: 12px;
     }
 
+    .psmall {
+    	font-family: 'Chivo', sans-serif;
+      font-size: 12px;
+      color: #F9F6EF
+    }
     
     td {
     	font-family: Georgia, 'Times New Roman', serif;

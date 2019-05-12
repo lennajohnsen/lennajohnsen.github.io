@@ -165,7 +165,7 @@ const makeRequest = async() => {
    .style("fill", "none")
    .style("font", "10px sans-serif")
    .call(transitionText)
-   .text("2009: President Obama starts term");
+   .text("2009: President Obama \n starts term");
 
  svg.append("path")
    .datum(data2015)
@@ -184,7 +184,7 @@ const makeRequest = async() => {
    .style("fill", "none")
    .style("font", "10px sans-serif")
    .call(transitionText)
-   .text("2015: Syrian Refugee Crisis starts");
+   .text("2015: Syrian Refugee \n Crisis starts");
 
  svg.append("path")
    .datum(data2017)

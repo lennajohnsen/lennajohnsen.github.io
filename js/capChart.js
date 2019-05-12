@@ -1,6 +1,5 @@
 
 
-
 const makeRequest = async() => {
   function bisect() {
    var bisect = d3.bisector(d => d.Year).left;
@@ -309,7 +308,7 @@ const makeRequest = async() => {
      .delay(9000)
      .style("fill", "black")
      .style("font-size", 8)
-     .style("font-weight", "bold")
+   //  .style("font-weight", "bold")
    // .on("end", function () {
    //   debugger;
    //   d3.select(this).call(transition);

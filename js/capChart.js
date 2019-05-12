@@ -1,5 +1,6 @@
 
 
+
 const makeRequest = async() => {
   function bisect() {
    var bisect = d3.bisector(d => d.Year).left;
@@ -36,7 +37,7 @@ const makeRequest = async() => {
    Line: "0"
  }, {
    Year: "2009",
-   Line: "100000"
+   Line: "92000"
  }]
  var data2015 = [{
    Year: "2015",
@@ -165,7 +166,7 @@ const makeRequest = async() => {
    .style("fill", "none")
    .style("font", "10px sans-serif")
    .call(transitionText)
-   .text("2009: President Obama \n starts term");
+   .text("2009: President Obama starts term");
 
  svg.append("path")
    .datum(data2015)
@@ -184,7 +185,7 @@ const makeRequest = async() => {
    .style("fill", "none")
    .style("font", "10px sans-serif")
    .call(transitionText)
-   .text("2015: Syrian Refugee \n Crisis starts");
+   .text("2015: Syrian Refugee Crisis starts");
 
  svg.append("path")
    .datum(data2017)
@@ -307,6 +308,7 @@ const makeRequest = async() => {
    text.transition()
      .delay(9000)
      .style("fill", "black")
+     .style("font-size", 8)
      .style("font-weight", "bold")
    // .on("end", function () {
    //   debugger;
